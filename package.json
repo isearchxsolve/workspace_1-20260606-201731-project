@@ -1,0 +1,1 @@
+{"name":"tsp","version":"1.0.0","scripts":{"start":"node tsp.js"},"dependencies":{"js-jwt":"9.0.0","jsonwebtoken":"8.3.0"}}

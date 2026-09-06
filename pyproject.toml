@@ -1,0 +1,22 @@
+[build-system]
+  build-backend = "setuptools.build_meta"
+  requires = ['setuptools', 'wheel']
+
+[tool.setuptools]
+  version = "63.2.0"
+  dependency_links = []
+
+[tool.poetry]
+  name = "tsp-solver"
+  version = "1.0.0"
+  description = "Solves the Travelling Salesman Problem"
+  authors = ["Your Name"]
+  license = "MIT"
+  python_versions = "^3.9"
+
+[tool.poetry.dependencies]
+  python = "^3.9"
+  networkx = "^3.0.0"
+
+[tool.poetry.dev-dependencies]
+  pytest = "^7.1.2"
